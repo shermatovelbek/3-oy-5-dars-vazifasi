@@ -18,6 +18,9 @@ ul{
     img{
         margin-left: 259px;
         margin-top: 36px;
+            width: 189.997px;
+    height: 47.77px;
+    flex-shrink: 0;
     }
     ul{
         width: 654.5px;
@@ -55,4 +58,53 @@ ul{
     button:hover{
         background:rgb(17, 110, 17)
     }
+}
+.body__container{
+    width: 1800px;
+    height: 680px;
+    flex-shrink: 0;
+    border-radius: 36px;
+    background: linear-gradient(80deg, #5B52A3 1.08%, #40B8EA 100%);
+    margin-left: 60px;
+    margin-right: 60px;
+
+    h3{
+        color: var(--4, #FFF);
+    font-family: Gilroy;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 80px; /* 111.111% */
+    width: 715px;
+    margin-left: 200px;
+    margin-bottom: 8px;
+    }
+
+    h5{
+        width: 707px;
+    color: var(--4, #FFF);
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 42px; /* 210% */
+    margin-left: 200px;
+    margin-top: 8px;
+    }
+
+    button{
+        border-radius: 36px;
+        width: 260px;
+    height: 66px;
+    flex-shrink: 0;
+        background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
+        box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
+        margin-left: 200px;
+       margin-bottom:108px;
+       transition: all 0.7s;
+    }
+
+    button:hover{
+        background: rgb(255,0,0);
+        background: linear-gradient(90deg, rgba(255,0,0,1) 15%, rgba(5,10,43,1) 21%, rgba(5,36,0,0.6951155462184874) 23%, rgba(2,167,2,1) 31%, rgba(0,255,145,0.7455357142857143) 36%, rgba(12,253,56,1) 44%, rgba(11,249,18,0.6755077030812324) 55%, rgba(13,24,144,1) 71%, rgba(255,0,5,1) 93%);
 }

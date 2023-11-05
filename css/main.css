@@ -19,6 +19,9 @@ ul {
 .header__container img {
   margin-left: 259px;
   margin-top: 36px;
+  width: 189.997px;
+  height: 47.77px;
+  flex-shrink: 0;
 }
 .header__container ul {
   width: 654.5px;
@@ -55,4 +58,51 @@ ul {
 }
 .header__container button:hover {
   background: rgb(17, 110, 17);
+}
+
+.body__container {
+  width: 1800px;
+  height: 680px;
+  flex-shrink: 0;
+  border-radius: 36px;
+  background: linear-gradient(80deg, #5B52A3 1.08%, #40B8EA 100%);
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.body__container h3 {
+  color: var(--4, #FFF);
+  font-family: Gilroy;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 80px; /* 111.111% */
+  width: 715px;
+  margin-left: 200px;
+  margin-bottom: 8px;
+}
+.body__container h5 {
+  width: 707px;
+  color: var(--4, #FFF);
+  font-family: Gilroy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 42px; /* 210% */
+  margin-left: 200px;
+  margin-top: 8px;
+}
+.body__container button {
+  border-radius: 36px;
+  width: 260px;
+  height: 66px;
+  flex-shrink: 0;
+  background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
+  box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.2);
+  margin-left: 200px;
+  margin-bottom: 108px;
+  transition: all 0.7s;
+}
+.body__container button:hover {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgba(0, 255, 145, 0.7455357143) 35%, rgb(12, 253, 56) 42%, rgba(11, 249, 18, 0.6755077031) 48%, rgb(0, 212, 255) 100%);
 }/*# sourceMappingURL=main.css.map */
