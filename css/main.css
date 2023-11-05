@@ -103,6 +103,14 @@ ul {
   transition: all 0.7s;
 }
 .body__container button:hover {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgba(0, 255, 145, 0.7455357143) 35%, rgb(12, 253, 56) 42%, rgba(11, 249, 18, 0.6755077031) 48%, rgb(0, 212, 255) 100%);
+  background: rgb(255, 0, 0);
+  background: linear-gradient(90deg, rgb(255, 0, 0) 15%, rgb(5, 10, 43) 21%, rgba(5, 36, 0, 0.6951155462) 23%, rgb(2, 167, 2) 31%, rgba(0, 255, 145, 0.7455357143) 36%, rgb(12, 253, 56) 44%, rgba(11, 249, 18, 0.6755077031) 55%, rgb(13, 24, 144) 71%, rgb(255, 0, 5) 93%);
+}
+.body__container img {
+  margin-left: 1000px;
+  width: 572.998px;
+  height: 571.119px;
+  flex-shrink: 0;
+  margin-top: -1000px;
+  margin-right: 260px;
 }/*# sourceMappingURL=main.css.map */
