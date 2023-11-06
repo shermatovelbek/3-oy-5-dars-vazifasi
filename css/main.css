@@ -296,4 +296,29 @@ p {
 
 .center-text p {
   margin-top: 33px;
+}
+
+.foot__container {
+  width: 1400px;
+  height: 180px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: var(--5, #FFF);
+  box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.1);
+  margin-top: 162px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+.foot__container h4 {
+  width: 88px;
+  color: var(--1, #1F2428);
+  font-family: Gilroy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 133.333% */
+}
+.foot__container img {
+  margin: 53px 51px 67px;
 }/*# sourceMappingURL=main.css.map */
